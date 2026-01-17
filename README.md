@@ -35,7 +35,7 @@ Raycast supports the following AI providers through their "Bring Your Own Key" (
 #### 3. Google AI (Gemini)
 - **Models**: Gemini Pro, Gemini Ultra
 - **How to get your API key**:
-  1. Visit [makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey)
+  1. Visit [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
   2. Sign in with your Google account
   3. Create a new API key
   4. Copy the key
@@ -62,10 +62,12 @@ Once you have your API key(s):
 
 ### Advanced: Custom OpenAI-Compatible Endpoints
 
-Raycast also supports custom OpenAI-compatible APIs. You can configure these by editing the `providers.yaml` file. This allows you to use:
+Raycast also supports custom OpenAI-compatible APIs. You can configure these by editing the `providers.yaml` file located in Raycast's configuration directory (`~/.config/raycast/ai/providers.yaml` on macOS). This allows you to use:
 - Local LLMs (via Ollama, LM Studio, etc.)
 - Aggregated AI services (OpenRouter, CometAPI, etc.)
 - Self-hosted AI models
+
+For detailed instructions, refer to [Raycast's custom AI provider documentation](https://developers.raycast.com/api-reference/ai).
 
 ### Important Notes
 
@@ -82,7 +84,7 @@ Raycast also supports custom OpenAI-compatible APIs. You can configure these by 
 - [Raycast Changelog - BYOK Feature](https://www.raycast.com/changelog/1-100-0)
 - [OpenAI Platform](https://platform.openai.com)
 - [Anthropic Console](https://console.anthropic.com)
-- [Google AI Studio](https://makersuite.google.com)
+- [Google AI Studio](https://aistudio.google.com)
 
 ## Questions?
 
